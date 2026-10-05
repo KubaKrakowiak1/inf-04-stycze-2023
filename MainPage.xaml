@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobilna.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Entry x:Name="nowy" Placeholder="Nowy element" HorizontalOptions="Fill"></Entry>
+                <Button Text="DODAJ" Background="#DC143C" TextColor="White" Clicked="Dodaj" HorizontalOptions="End"></Button>
+            </HorizontalStackLayout>
+            <ListView x:Name="lista" SeparatorColor="Crimson" SeparatorVisibility="Default"></ListView>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
